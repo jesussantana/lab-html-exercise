@@ -1,0 +1,271 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto+Condensed:700|Roboto:100,300,700");
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto";
+  font-size: 10px;
+  line-height: 3.5em;
+  font-weight: 300;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Roboto Condensed";
+}
+
+h1 {
+  font-size: 9em;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+h2 {
+  color: #fff;
+  font-size: 5em;
+  line-height: 4em;
+  text-align: center;
+  text-shadow: #020819 6px -2px 6px;
+  text-transform: uppercase;
+}
+
+h3 {
+  font-size: 4.2em;
+  text-align: center;
+}
+
+h4 {
+  font-size: 1.5em;
+  letter-spacing: 0.4px;
+  margin-bottom: 15px;
+}
+
+h5 {
+  font-size: 1.2em;
+}
+
+.dark-background {
+  background-color: rgb(25, 33, 41);
+  color: #fff;
+}
+
+.link-btn {
+  background-color: rgb(67, 163, 230);
+  border: 2px solid rgba(0, 0, 0, 0.2);
+  color: #fff;
+  display: block;
+  font-family: "Roboto Condensed";
+  font-size: 2em;
+  letter-spacing: 0.5px;
+  margin: 40px auto 0;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  width: 150px;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 75px 0;
+  width: 1200px;
+}
+
+.clearfix {
+  clear: both;
+}
+
+.col {
+  float: left;
+}
+
+.col3 {
+  width: 30%;
+}
+
+.nav-bar {
+  background: rgb(25, 33, 41);
+  color: #fff;
+  height: 40px;
+  padding-bottom: 14px;
+  padding-top: 14px;
+}
+
+.nav-bar-ul {
+  margin: 0 auto;
+  width: 1200px;
+}
+
+.nav-bar-li {
+  float: left;
+  list-style-type: none;
+  text-align: center;
+  width: 33%;
+}
+
+.nav-bar-item {
+  color: #fff;
+  font-size: 2em;
+  text-decoration: none;
+}
+
+.header {
+  background: url(https://s3-eu-west-1.amazonaws.com/ih-materials/uploads/ironhack-skydive-background.jpg)
+    0 0 no-repeat;
+  background-size: cover;
+  height: 650px;
+  padding-top: 50px;
+  position: relative;
+}
+
+.quote {
+  bottom: 15vh;
+  font-size: 2.5em;
+  position: absolute;
+  left: 10%;
+}
+
+/*Section 1 */
+/*
+#general-information {
+  display: flex;
+  justify-content: space-evenly;
+}
+#general-information .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 370px;
+}*/
+
+#general-information .text {
+  font-size: 2em;
+  font-weight: 100;
+  margin: 20px 0;
+  text-align: center;
+}
+
+/*Section 2 */
+
+.service-box {
+  border: 2px solid #eee;
+  border-radius: 20px;
+  box-sizing: border-box;
+  box-shadow: 2px 2px 10px 0 #eee;
+  font-size: 1.7em;
+  margin: 50px 5% 0;
+  padding: 20px;
+  text-align: center;
+  width: 40%;
+}
+
+.service-box .img {
+  width: 125px;
+}
+
+/*Section 3 */
+
+#team .section-text {
+  font-size: 1.9em;
+  margin: 10px auto;
+  text-align: center;
+  width: 60%;
+}
+
+#team hr {
+  margin: 20px auto 30px;
+  width: 40%;
+}
+
+#team .member-name {
+  display: block;
+  font-size: 1.5em;
+  font-weight: 700;
+  text-align: center;
+}
+
+#team img {
+  height: 250px;
+  width: 100%;
+  margin: 10px;
+}
+
+/*Section 4 */
+
+.schedule-table {
+  font-size: 1.5em;
+  margin: 0 auto 40px;
+  text-align: center;
+}
+
+.schedule-table th,
+.schedule-table td {
+  border-bottom: 1px solid #000;
+  padding: 5px 10px;
+}
+
+.slot-form-container {
+  font-size: 1.5em;
+  margin: 18px auto 0;
+  text-align: center;
+  width: 40%;
+}
+
+.slot-form-container label {
+  display: block;
+  line-height: 15px;
+  margin-bottom: 0;
+}
+
+.slot-form-container input,
+.slot-form-container select {
+  height: 20px;
+  outline: none;
+  padding: 3px;
+  width: 100%;
+}
+
+.slot-form-container button {
+  background: #fff;
+  border: 1px solid #000;
+  color: #000;
+  margin-top: 15px;
+  padding: 9px;
+}
+
+.footer {
+  display: flex;
+  justify-self: center;
+  align-items: center;
+  font-size: 1.9em;
+  margin-bottom: 25px;
+  padding: 0 100px;
+  text-align: center;
+}
+
+.footer .address {
+  font-style: normal;
+  font-size: 0.8em;
+  margin-bottom: 30px;
+}
+
+.footer .follow-us-item {
+  list-style-type: none;
+  text-align: center;
+}
+
+.footer .link {
+  color: rgb(67, 163, 230);
+  text-decoration: none;
+  text-align: center;
+}
+
+.footer .map-frame {
+  height: 375px;
+  float: right;
+  width: 60%;
+  margin: 80px 0 80px;
+  
+}
